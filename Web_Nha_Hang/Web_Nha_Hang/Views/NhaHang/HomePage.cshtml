@@ -1,0 +1,324 @@
+﻿
+@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Views/Shared/_LayoutPageNhaHang.cshtml";
+    int counter = 0;
+}
+<link href="~/Theme/css/bootstrap.css" rel="stylesheet" />
+<link href="~/Theme/css/style.css" rel="stylesheet" />
+<link href="~/Theme/css/font-awesome.min.css" rel="stylesheet" />
+<link href="~/Theme/css/css_slider.css" rel="stylesheet" />
+
+<div class="banner" id="home">
+    <div class="layer">
+        <div class="container">
+            <div class="banner-text-agile">
+                <div class="row">
+                    <div class="col-lg-6 p-0">
+                        <!-- banner slider-->
+                        <div class="csslider infinity" id="slider1">
+                            <input type="radio" name="slides" checked="checked" id="slides_1" />
+                            <input type="radio" name="slides" id="slides_2" />
+                            <input type="radio" name="slides" id="slides_3" />
+                            <ul class="banner_slide_bg">
+                                <li>
+                                    <div class="container-fluid">
+                                        <div class="w3ls_banner_txt">
+                                            <h3 class="b-w3ltxt text-capitalize mt-md-4"><span>Delicious & crispy</span> Recipes.</h3>
+                                            <p class="w3ls_pvt-title my-3">
+                                                Hãy đến và trải nghiệm sự phục vụ chuyên nghiệp, không khí tràn ngập niềm vui,
+                                                và hương vị tinh tế tại nhà hàng chúng tôi Chúng tôi cam kết mang đến cho quý 
+                                                khách những khoảnh khắc đặc biệt, nơi ẩn chứa niềm vui của việc thưởng thức ẩm 
+                                                thực tại ngôi nhà lẩu chúng tôi.
+                                            </p>
+                                           
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="container-fluid">
+                                        <div class="w3ls_banner_txt">
+                                            <h3 class="b-w3ltxt text-capitalize mt-md-4"><span>Tasty and healthy</span> Food</h3>
+                                            <p class="w3ls_pvt-title my-3">
+                                                Sự kết hợp tinh tế của các nguyên liệu tươi ngon, mà còn là một trải nghiệm tương tác, 
+                                                nơi mọi người có thể cùng nhau chia sẻ niềm vui của việc nấu ăn và thưởng thức hương vị đặc 
+                                                trưng của lẩu.
+                                            </p>
+                                          
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="container-fluid">
+                                        <div class="w3ls_banner_txt">
+                                            <h3 class="b-w3ltxt text-capitalize mt-md-4"><span>Delicious & crispy</span> Recipes</h3>
+                                            <p class="w3ls_pvt-title my-3">
+                                                Hãy đến và trải nghiệm sự phục vụ chuyên nghiệp, không khí tràn ngập niềm vui,
+                                                và hương vị tinh tế tại nhà hàng chúng tôi Chúng tôi cam kết mang đến cho quý
+                                                khách những khoảnh khắc đặc biệt, nơi ẩn chứa niềm vui của việc thưởng thức ẩm
+                                                thực tại ngôi nhà lẩu chúng tôi.
+                                            </p>
+                                          
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="navigation">
+                                <div>
+                                    <label for="slides_1"></label>
+                                    <label for="slides_2"></label>
+                                    <label for="slides_3"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //banner slider-->
+
+                    </div>
+                    <div class=" col-lg-6 col-md-8 mt-5">
+                        <img src="~/Theme/images/Banner_Main.jpg" alt="" class="img-fluid"  style=" width: 500px; height: 500px; padding:20px; " />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //banner -->
+<!-- about -->
+<section class="about py-5">
+    <div class="container py-md-3">
+        <h2 class="heading text-center mb-sm-5 mb-4">Giới thiệu về chúng tôi</h2>
+        <div class="row">
+            <div class="col-lg-8">
+                <h4 class="about-left">
+                    Tận hưởng niềm vui cùng nhau tại cửa hàng của chúng tôi!
+                </h4>
+                <p class="mt-sm-4 mt-3">
+                    Bữa ăn tại nhà hàng chúng tôi không chỉ là sự kết hợp tinh tế của các nguyên liệu 
+                    tươi ngon, mà còn là một trải nghiệm tương tác, nơi mọi người có thể cùng nhau chia 
+                    sẻ niềm vui của việc nấu ăn và thưởng thức hương vị đặc trưng của lẩu. Không gian ấm áp, 
+                    phục vụ tận tâm và menu đa dạng sẽ làm cho mỗi bữa ăn tại đây trở thành một chuyến phiêu 
+                    lưu ẩm thực không thể quên.
+                </p>
+                <div class="row mt-4">
+                    <div class="col-md-3 col-6">
+                        <div class="about-box">
+                            <span class="icon">
+                                <span class="fa fa-birthday-cake"></span>
+                            </span>
+                            <h4>Healthy</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="about-box">
+                            <span class="icon">
+                                <span class="fa fa-rocket"></span>
+                            </span>
+                            <h4>Spicy & Hot</h4>
+                        </div>
+                    </div>
+                    <!-- .about-box ends here -->
+                    <div class="col-md-3 col-6 mt-md-0 mt-4">
+                        <div class="about-box">
+                            <span class="icon">
+                                <span class="fa fa-cutlery"></span>
+                            </span>
+                            <h4>Crunchy</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mt-md-0 mt-4">
+                        <div class="about-box">
+                            <span class="icon">
+                                <span class="fa fa-coffee"></span>
+                            </span>
+                            <h4>Reciepe</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8 dental">
+                <img src="~/Theme/images/Banner_About_Home.jpg" class="img-fluid" alt="" style="height:375px" />
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //about -->
+<!-- about bottom -->
+<section class="about-bottom pb-5">
+    <div class="container pb-lg-3">
+        <div class="row bottom-grids">
+            <div class="col-lg-6">
+                <img src="~/Theme/images/bg.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-6 mt-lg-0 mt-5">
+                <h4>Món lẩu thơm ngon và dinh dưỡng , cùng với đó là niềm vui bên bạn bè gia đình</h4>
+                <p class="py-3">
+                    Món lẩu thơm ngon và dinh dưỡng sẽ là điểm đặc biệt mà chúng tôi tự hào mang đến cho 
+                    quý khách. Tận hưởng hương vị giòn ngon của các loại rau sạch và thực phẩm tươi ngon 
+                    được chọn lọc kỹ lưỡng, tất cả hòa quyện trong nồng nàn hương lẩu đặc trưng của chúng tôi.
+                </p>
+                <p class="">
+                    Đây không chỉ là bữa ăn ngon miệng mà còn là trải nghiệm tốt cho sức khỏe, khi bạn có thể 
+                    thưởng thức những thành phần giàu chất dinh dưỡng và thúc đẩy sự lành mạnh của cơ thể.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //about bottom -->
+<!-- services -->
+<section class="services py-5">
+    <div class="container py-lg-5">
+        <h3 class="heading text-center mb-sm-5 mb-4">Món ăn nổi bật</h3>
+        <div class="row offer-grids">
+            @foreach (var monAn in Model)
+            {
+                if (counter >= 6)
+                {
+                    break;
+                }
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="ser@(monAn.mamon)">
+                        <div class="bg-layer">
+                            <a href="@Url.Action("Menu", "NhaHang")">
+                                <img src="@Url.Content("~/Uploads/" + monAn.anh)" alt="Image" class="card-img-top" style="height: 200px; object-fit: cover;" />
+                            </a>
+                            <h4 style="text-align:center">@monAn.tenmon</h4>
+                        </div>
+                    </div>
+                </div>
+
+                counter++;
+            }
+        </div>
+    </div>
+</section>
+<!-- //services -->
+<!-- testimonials -->
+<section class="feedback" id="testimonials">
+    <div class="feedback-layer py-5">
+        <div class="container py-lg-5">
+            <h3 class="heading text-center mb-sm-5 mb-4">Phản hồi từ khách hàng </h3>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="feedback-info">
+                        <div class="feedback-top p-4">
+                            <span class="fa fa-quote-right"></span>
+                            <p>
+                                Thu Quỳnh thực sự hài lòng về đồ ăn tại Lẩu Wang. Nhiều đồ ăn tươi ngon giá 
+                                cả lại hợp lý với hầu hết các bạn trẻ. Khi nào có liên hoan đông người chắc 
+                                chắn Quỳnh sẽ rủ bạn bè đến đây. Hi vọng nhà hàng sẽ phát triển hơn nữa. 
+                                Nhiều bạn đến đây sẽ thích cho xem.
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="feedback-grids">
+                            <div class="feedback-img">
+                                <img src="~/Theme/images/kh1-100x100.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="feedback-img-info">
+                                <h5>Thu Quỳnh</h5>
+                                <p class="font-italic">- November 3, 2024.</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
+                    <div class="feedback-info">
+                        <div class="feedback-top p-4">
+                            <span class="fa fa-quote-right"></span>
+                            <p> 
+                                Lan Ngọc có dịp ghé Lẩu Wang vào một dịp trời thu Hà Nội. Ăn một lần mà 
+                                rất nhớ vị lẩu ở đây, có gì đó khác so với các nhà hàng buffet mình đã từng ăn. 
+                                Nếu có dịp quay lại Hà Nội, chắc chắn mình sẽ lại ghé qua lần nữa . Mọi người cứ 
+                                đến ăn Lẩu Wang để trải nghiệm như Lan Ngọc nhé.
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="feedback-grids">
+                            <div class="feedback-img">
+                                <img src="~/Theme/images/kh3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="feedback-img-info">
+                                <h5>Ngọc Lan</h5>
+                                <p class="font-italic">- November 3, 2024.</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-0 mt-5">
+                    <div class="feedback-info">
+                        <div class="feedback-top p-4">
+                            <span class="fa fa-quote-right"></span>
+                            <p>
+                                Lẩu Wang là nhà hàng mình thấy đặc biệt ngon và phù hợp với các bạn trẻ. 
+                                Đồ ăn ở đây vừa tươi, ngon miệng rất vừa vị mà còn đẹp mắt. Mọi người cứ 
+                                thử đến ăn Lẩu Wang để trải nghiệm nhé. Minh Vương nghiện Lẩu Wang mất rồi. 
+                                Chắc chắn sẽ còn đến đây nhiều lần đấy !
+                            </p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="feedback-grids">
+                            <div class="feedback-img">
+                                <img src="~/Theme/images/kh2.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="feedback-img-info">
+                                <h5>Minh Vương</h5>
+                                <p class="font-italic">- November 3, 2024.</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //testimonials -->
+<!-- blog -->
+<section class="blog py-5">
+    <div class="container py-md-5 py-3">
+        <h3 class="heading text-center mb-sm-5 mb-4">Tin tức</h3>
+        <div class="row blog-grids">
+            <div class="col-lg-7 mb-lg-5 blog-img1">
+                <img src="~/Theme/images/blog1.jpg" alt="" class="img-fluid" />
+                <a href="/NhaHang/Blog" style="right: 20.3%">Blog #1</a>
+            </div>
+            <div class="col-lg-5 mb-lg-5 mb-4">
+                <h5>March 3, 2019.</h5>
+                <h4 class="my-3">Quán Lẩu Mới Ra Mắt Bộ Menu Đặc Sắc</h4>
+                <p class="my-3">
+                    Một quán lẩu nổi tiếng vừa công bố bộ menu mới, tập trung vào việc sử dụng nguyên liệu 
+                    có lợi ích cho sức khỏe. Menu mới này bao gồm các loại rau củ tươi ngon, thực phẩm hữu cơ, 
+                    và các lựa chọn protein đa dạng. Quán lẩu hy vọng sẽ mang lại cho khách hàng không chỉ 
+                    là trải nghiệm ẩm thực tuyệt vời mà còn là lựa chọn có lợi cho sức khỏe.
+                </p>
+                <a href="/NhaHang/Blog" class="btn-banner"> View Post </a>
+            </div>
+            <div class="col-lg-5 mb-lg-0 mb-4">
+                <h5>March 3, 2019.</h5>
+                <h4 class="my-3">Sallad rau củ siêu tươi ngon.</h4>
+                <p class="my-3">
+                    Một quán lẩu nổi tiếng vừa công bố bộ menu mới, tập trung vào việc sử dụng nguyên liệu có lợi ích cho sức khỏe. Menu mới này bao gồm các loại rau củ tươi ngon, thực phẩm hữu cơ, và các lựa chọn protein đa dạng. Quán lẩu hy vọng sẽ mang lại cho khách hàng không chỉ là trải nghiệm ẩm thực tuyệt vời mà còn là lựa chọn có lợi cho sức khỏe.
+                </p>
+                <a href="/NhaHang/Blog" class="btn-banner"> View Post </a>
+            </div>
+            <div class="col-lg-7 blog-img2">
+                <img src="~/Theme/images/blog2.jpg" alt="" class="img-fluid" />
+                <a href="/NhaHang/Blog">Blog #2</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //blog -->
+<!-- appointment -->
+<section class="appointment text-center py-5">
+    <div class="container py-sm-3">
+        <h4>Thưởng thức hương vị giòn thơm ngon và bổ dưỡng được cung cấp tại nhà hàng Lẩu Sigi's của chúng tôi.</h4>
+        <p class="mt-3">Gọi cho chúng tôi để đặt bàn ngay hôm nay hoặc để đặt món ăn</p>
+        <h3>0974580133</h3>
+    </div>
+</section>
+
